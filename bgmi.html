@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGMI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100vh;  
+    width: 100%;
+    background: #edf2fc;
+    font-family: sans-serif;
+    position: relative;
+    
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    border-radius: 8px;
+    background: pink;
+    color: white;
+    position: relative;
+    max-width: 650px;
+
+
+    /* border: 1px solid red; */
+}
+.h-txt :hover
+{
+    background: transparent;
+    border: 1px black;
+    content:'';
+    position: relative;
+    top: 20;
+    left: 10;
+    width: 10%;
+    height: 10%;
+    border-bottom: 1px solid indianred;
+    transition: 0.4s linear;
+    
+}
+
+nav ul :hover
+{
+    background: transparent;
+    border: 1px salmon;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.info{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.info h1{
+    font-size: 50px ;
+    color:black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ff4321;
+    font-size: 50px;
+}
+
+.info p{
+    color: #212121;
+    line-height: 22px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.info a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none ;
+    color: #edf2fc;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.img-box{
+    width: 73.5%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.img-box img
+{
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-40%);
+}
+
+.social-link{
+    margin-left: 8%;
+    margin-top: 10px;
+
+}
+
+.social-link a{
+    font-size: 50px;
+    color: #212121;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    
+}
+
+.social-link a :hover
+{
+    color: #ff4321;
+    height: 20%;
+}
+
+
+
+</style>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="Logo_of_BGMI.png" alt="" class="logo">
+            <ul class="h-txt">
+                <a href="#">Home</a>
+                <a href="#">Download</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </ul>
+            
+        </nav>
+        <div class="info">
+            <h1>BATTLEGROUND</h1>
+            <h1 style="color: red;">MOBILE <span style="color: green;">INDIA</span></h1>
+            <br>
+            <p>This is the main webpage we are working on the <br>Company of Krafton</p>
+
+            <a href="#" title="Download BGMI">Download</a>
+
+            
+        </div>
+    </div>
+
+    <div class="img-box">
+        <img src="pubgboy.jpg" class="main-img" alt="pubg">
+    </div>
+
+    <div class="social-link">
+        <a href="#" title="we are on fa-linkedin"><i class="fa-brands fa-linkedin fa-lg" style="color: #74C0FC;"></i></a>
+        <a href="#" title="we are on instagram"><i class="fa-brands fa-instagram" style="color: #511f37;"></i></a>
+        <a href="#" title="we are on github"><i class="fa-brands fa-github"></i>    </a>
+    </div>
+
+
+</body>
+
+</html>
